@@ -1,0 +1,137 @@
+/* page-one */
+
+
+
+
+
+
+
+
+.page-one-body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.page-one-left-top-bar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: white;
+    width: 15%;
+    height: 60%;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.page-one-logo{
+    width: 70px !important;
+    margin: auto;
+    padding-top: 15%;
+}
+
+.page-one-logo-line{
+    height: 1px;
+    width: 50%;
+    background-color: black;
+    margin: auto;
+}
+
+
+.page-one-left-bottom-bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    width: 10%;
+    height: 100%;
+}
+
+.page-one-img{
+    background: url("../img/index-1-pic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position-y: center;
+    line-height: 10px;
+}
+
+.page-one-right-top-bar{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+    height: 100%;
+    width: 10%;
+}
+
+.page-one-menu-icon{
+    padding-top: 45%;
+    padding-left: 35%;
+}
+
+.page-one-menu-line-long{
+    width: 20px;
+    height: 1px;
+    background-color: black;
+    margin: 5px;
+}
+
+.page-one-menu-line-short{
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    margin: 5px 5px 5px 15px;
+}
+
+.page-one-right-bottom-bar{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    height: 40%;
+    width: 12%;
+    border-radius: 5px;
+}
+
+.page-one-scroll{
+    position: absolute;
+    right: 7%;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url('../img/scroll.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-one-scroll-text{
+
+}
+
+.page-one-scroll-arrow{
+    width: 50px !important;
+}
+
+/* page-two */
+
+/* page-three */
+
+
+
+
+
+
+
+/* page-four */
