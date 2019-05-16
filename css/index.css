@@ -11,12 +11,13 @@
 
 .page-one-left-top-bar{
     position: absolute;
-    left: 0;
+    left: -200px;
     top: 0;
     background-color: white;
     width: 15%;
     height: 60%;
     text-align: center;
+    transition: all 1s;
 }
 
 .page-one-logo{
@@ -36,24 +37,26 @@
 
 .page-one-left-bottom-bar{
     position: absolute;
-    left: 0;
+    left: -200px;
     bottom: 0;
     background-color: white;
     width: 12%;
     height: 100%;
     display: flex;
     flex-direction: column-reverse;
+    transition: all 1s;
 }
 
 .page-one-bottom-dot{
     position: absolute;
-    left: 4%;
+    left: -50px;
     bottom: 1%;
     height: 10%;
     width: 4%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    transition: all 0.2s 1s;
 }
 
 .page-one-rectangle{
@@ -84,21 +87,23 @@
 
 .page-one-right-top-bar{
     position: absolute;
-    right: 0;
+    right: -125px;
     top: 0;
     background-color: white;
     height: 100%;
     width: 10%;
+    transition: all 1s;
 }
 
 .page-one-menu-icon{
     z-index: 9;
     position: absolute;
     top: 6%;
-    right: 3%;
+    right: -50px;
     cursor: pointer;
     width: 50px;
     height: 50px;
+    transition: all 1s;
 }
 
 .page-one-menu-line-long{
@@ -133,16 +138,17 @@
 
 .page-one-right-bottom-bar{
     position: absolute;
-    right: 0;
+    right: -200px;
     bottom: 0;
     background-color: white;
     height: 40%;
     width: 12%;
+    transition: all 1s;
 }
 
 .page-one-scroll{
     position: absolute;
-    right: 7%;
+    right: -250px;
     bottom: 0;
     width: 200px;
     height: 200px;
@@ -155,6 +161,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: all 0.2s 1s;
 }
 
 .page-one-scroll-text{
@@ -241,11 +248,13 @@
     height: 18px !important;
     width: 9px !important;
     padding-right: 16px;
+    cursor: pointer;
 }
 
 .page-one-ig{
     width: 18px !important;
     height: 18px !important;
+    cursor: pointer;
 }
 
 .page-one-copyright{
@@ -257,15 +266,400 @@
 
 /* page-two */
 
+.page-two-body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.page-two-left-top-bar{
+    position: absolute;
+    /* left: -200px; */
+    left: -8%;
+    top: 0;
+    background-color: white;
+    width: 13%;
+    height: 40%;
+    text-align: center;
+    transition: all 1s;  
+}
+
+.page-two-left-bottom-bar{
+    position: absolute;
+    /* left: -200px; */
+    opacity: 0;
+    left: -8%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 8%;
+    height: 100%;
+    text-align: center;
+    transition: all 1s;  
+}
+
+.page-two-logo{
+    height: 50px;
+    width: 50px !important;
+    padding: 20px 0px 10px 0px;
+}
+
+.page-two-bottom-dot{
+    position: absolute;
+    left: -50px;
+    opacity: 0;
+    bottom: 3%;
+    height: 10%;
+    width: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.2s 1s;
+}
+
+.page-two-left-pagination{
+    font-size: 50px;
+    position: absolute;
+    left: -6%;
+    opacity: 0;
+    bottom: 30%;
+    height: 30px;
+    width: 30px;
+    transition: all 0.2s 1s;
+}
+
+.page-two-img{
+    background: url("../img/index-2-pic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    width: 84%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.page-two-right-top-bar{
+    position: absolute;
+    right: -80px;
+    bottom: 0;
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.page-two-right-product-bar{
+    position: absolute;
+    right: -40%;
+    opacity: 0;
+    bottom: 30%;
+    background-color: white;
+    width: 34%;
+    height: 40%;
+    padding-left: 25px;
+    transition: all 0.2s 1s; 
+}
+
+.page-two-read-more{
+    background: black;
+    color: white;
+    padding: 4px 14px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.page-two-right-bottom-scroll-bar{
+    position: absolute;
+    right: 10%;
+    opacity: 0;
+    bottom: -1%;
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/scroll-two.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s 1s;
+}
+
+.page-two-scroll-arrow{
+    width: 40px !important;
+    height: 15px;
+    transition: all 0.2s 3s;
+}
+
+
+
 
 
 
 /* page-three */
 
+.page-three-body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.page-three-left-top-bar{
+    position: absolute;
+    left: -8%;
+    top: 0;
+    background-color: white;
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    transition: all 1s;  
+}
 
 
+.page-three-left-bottom-bar{
+    position: absolute;
+    opacity: 0;
+    left: -8%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 8%;
+    height: 100%;
+    text-align: center;
+    transition: all 1s;  
+}
 
+.page-three-logo{
+    height: 50px;
+    width: 50px !important;
+    padding: 20px 0px 10px 0px;
+}
+
+.page-three-bottom-dot{
+    position: absolute;
+    left: -50px;
+    opacity: 0;
+    bottom: 3%;
+    height: 10%;
+    width: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.2s 1s;
+}
+
+.page-three-right-pagination{
+    font-size: 50px;
+    position: absolute;
+    right: -6%;
+    opacity: 0;
+    top: 20%;
+    height: 30px;
+    width: 30px;
+    transition: all 0.2s 1s;
+}
+
+.page-three-img{
+    background: url("../img/index-3-pic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.page-three-right-top-bar{
+    position: absolute;
+    right: -80px;
+    top: 0;
+    background-color: white;
+    width: 20%;
+    height: 36%;
+    transition: all 1s;
+}
+
+.page-three-right-bottom-bar{
+    position: absolute;
+    right: -80px;
+    top: 0;
+    background-color: white;
+    width: 16%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.page-three-right-product-bar{
+    position: absolute;
+    opacity: 0;
+    left: -10%;
+    bottom: -1%;
+    background-color: white;
+    width: 20%;
+    height: 40%;
+    padding-left: 25px;
+    transition: all 0.2s 1s; 
+}
+
+.page-three-read-more{
+    background: black;
+    color: white;
+    padding: 4px 14px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.page-three-right-bottom-scroll-bar{
+    position: absolute;
+    right: 10%;
+    opacity: 0;
+    bottom: 5%;
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/scroll-two.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s 1s;
+}
+
+.page-three-scroll-arrow{
+    width: 40px !important;
+    height: 15px;
+    transition: all 0.2s 3s;
+}
 
 
 
 /* page-four */
+
+.page-four-body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.page-four-left-top-bar{
+    position: absolute;
+    left: 2%;
+    top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 8%;
+    height: 100%;
+    text-align: center;
+    transition: all 1s;  
+}
+
+.page-four-logo{
+    height: 50px;
+    width: 50px !important;
+    padding: 20px 0px 10px 0px;
+}
+
+.page-four-bottom-dot{
+    position: absolute;
+    left: 4%;
+    bottom: 3%;
+    height: 10%;
+    width: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.2s 1s;
+}
+
+.page-four-img{
+    background: url("../img/index-4-pic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    width: 46%;
+    margin: 0 0 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.page-four-portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20%;
+    top: 17%;
+    height: 5%;
+    width: 10%;
+    transition: all 0.2s 1s;
+}
+
+
+
+.page-four-portfolio-line{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.page-four-right-product-bar{
+    position: absolute;
+    right: 11%;
+    top: 10%;
+    background-color: white;
+    width: 13%;
+    height: 100%;
+    padding-left: 25px;
+    transition: all 0.2s 1s; 
+}
+
+.page-four-right-product-bar p:hover{
+    background-color: #48FFFE;
+    cursor: pointer;
+}
+
+.page-four-product-up-text{
+    font-size:20px; 
+    margin:36px 0px 10px 0px;
+}
+
+.page-four-product-down-text{
+    font-size:16px; 
+    margin:10px 0px;
+}
+
+.page-four-href{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+

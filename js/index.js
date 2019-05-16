@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    // document.location.href="#slide1";
     $(".owl-carousel").owlCarousel({
         items: 1,
         loop: false,
@@ -27,6 +28,8 @@ $(document).ready(function(){
       
       })
 
+
+    // slide oneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
     // menu 開關
     $('#page_one_close_div').click(closeMenu)
     $('#page_one_menu_icon').click(openMenu)
@@ -101,6 +104,59 @@ $(document).ready(function(){
     $('.page-one-content-five').mouseleave(function(){
       $('.page-one-menu-arrow-five').css('display','none');
     })
+
+    // 開頭淡入效果
+    $('.page-one-left-top-bar').css('left', '0');
+    $('.page-one-left-bottom-bar').css('left', '0');
+    $('.page-one-bottom-dot').css('left', '4%');
+    $('.page-one-right-top-bar').css('right', '0');
+    $('.page-one-right-bottom-bar').css('right', '0');
+    $('.page-one-scroll').css('right', '7%');
+    $('.page-one-menu-icon').css('right', '3%');
+
+
+    // slide oneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+    $('.next').click(function () {
+      $('.page-two-left-top-bar').css('left', '0');
+      $('.page-two-left-bottom-bar').css('left', '0');
+      $('.page-two-left-bottom-bar').css('opacity', '1');
+      $('.page-two-bottom-dot').css('left', '2%');
+      $('.page-two-bottom-dot').css('opacity', '1');
+      $('.page-two-left-pagination').css('left', '6%');
+      $('.page-two-left-pagination').css('opacity', '1');
+      $('.page-two-right-top-bar').css('right', '0');
+      $('.page-two-right-product-bar').css('right', '0');
+      $('.page-two-right-product-bar').css('opacity', '1');
+      $('.page-two-right-bottom-scroll-barr').css('right', '5%');
+      $('.page-two-right-bottom-scroll-bar').css('opacity', '1');
+    })
+
+    
+    // $('.page-two-left-top-bar').css('left', '0');
+
+    $('.next-two').click(function () {
+      $('.page-three-left-top-bar').css('left', '0');
+      $('.page-three-left-bottom-bar').css('left', '0');
+      $('.page-three-left-bottom-bar').css('opacity', '1');
+      $('.page-three-bottom-dot').css('left', '2%');
+      $('.page-three-bottom-dot').css('opacity', '1');
+      $('.page-three-right-pagination').css('right', '19.5%');
+      $('.page-three-right-pagination').css('opacity', '1');
+      $('.page-three-right-top-bar').css('right', '0');
+      $('.page-three-right-bottom-bar').css('right', '0');
+      $('.page-three-right-product-bar').css('left', '7%');
+      $('.page-three-right-product-bar').css('opacity', '1');
+      $('.page-three-right-bottom-scroll-barr').css('right', '5%');
+      $('.page-three-right-bottom-scroll-bar').css('opacity', '1');
+    })
+
+
+
+
+
+
+
+
 
 
   });
