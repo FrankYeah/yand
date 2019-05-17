@@ -380,7 +380,7 @@
     position: absolute;
     right: 10%;
     opacity: 0;
-    bottom: -1%;
+    bottom: 3%;
     width: 100px;
     height: 100px;
     background-image: url('../img/scroll-two.png');
