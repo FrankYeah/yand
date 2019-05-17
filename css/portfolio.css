@@ -251,23 +251,38 @@
 /* bottom */
 
 .bottom-all{
-
+    padding: 100px 0px 0px 12%;
+    width: 86%;
 }
 
 .bottom-info-icon{
-    
+    background: url("../img/info.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 86px;
+    width: 86px;
+    text-align: center;
+    line-height: 86px;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+    margin-left: 14%;
+    margin-right: 5%;
+    display: inline-block;
 }
 
 .bottom-ceil-div{
-
+    display: inline-block;
+    width: 62%;
 }
 
 .bottom-row-first{
-
+    display: flex;
+    border-bottom: 1px solid;
 }
 
 .bottom-row-first-text{
-
+    width: 30%;
 }
 
 .bottom-row-second-text{
