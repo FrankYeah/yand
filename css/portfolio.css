@@ -218,7 +218,7 @@
 }
 
 .center-text-div{
-    width: 800px;
+    width: 70%;
     margin: auto;
     padding:0% 8%;
 }
@@ -251,6 +251,7 @@
 /* bottom */
 
 .bottom-all{
+    display: flex;
     padding: 100px 0px 0px 12%;
     width: 86%;
 }
@@ -286,11 +287,56 @@
 }
 
 .bottom-row-second-text{
-
+    width: 70%;
 }
 
+.bottom-special-row{
+    border-bottom: 1px solid;
+    margin-left: 30%;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
 
+/* foot */
 
+.foot-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
 
+.foot-upper{
+    display: flex;
+    align-items: center;
+}
 
+.foot-text{
+    width: 240px;
+}
 
+.foot-more{
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    padding: 2% 7%;
+}
+
+.foot-scroll{
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/scroll-two.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.foot-arrow-up{
+    width: 20px;
+    height: 45px;
+}
