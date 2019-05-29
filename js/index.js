@@ -113,7 +113,7 @@ $(document).ready(function(){
     $('.page-one-right-top-bar').css('right', '0');
     $('.page-one-right-bottom-bar').css('right', '0');
     $('.page-one-scroll').css('right', '7%');
-    $('.page-one-menu-icon').css('right', '70px');
+    $('.page-one-menu-icon').css('right', '40px');
 
 
     // slide oneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee

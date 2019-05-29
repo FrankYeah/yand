@@ -1,3 +1,19 @@
+p{
+    font-family: 'Noto Sans TC', 'Cardo', 'Lato';
+}
+
+div{
+    font-family:  'Cardo', 'Lato';
+}
+
+h1{
+    font-family:  'Cardo';
+}
+
+h3{
+    font-family:  'Cardo';
+}
+
 /* page-one */
 
 .page-one-body{
@@ -101,7 +117,7 @@
 .page-one-menu-icon{
     z-index: 9;
     position: absolute;
-    top: 70px;
+    top: 40px;
     right: -130px;
     cursor: pointer;
     width: 50px;
@@ -117,6 +133,15 @@
     background-position-y: center;
     width: 36px;
     height: 36px;
+}
+
+.page-menu-icon:hover{
+    background-image: url('../img/close-menu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    transition: all 0.6s linear;
 }
 
 .page-one-menu-text{
@@ -191,8 +216,8 @@
 .page-one-close-div{
     position: absolute;
     right: 0;
-    top: 5%;
-    width: 25%;
+    top: 40px;
+    width: 22%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,7 +226,13 @@
 }
 
 .page-one-close-icon{
+    background-image: url('../img/close-menu.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
     font-size: 40px;
+    width: 36px;
+    height: 36px;
 }
 
 .page-one-close-text{
@@ -537,6 +568,12 @@
     padding: 4px 14px;
     margin-left: 10px;
     cursor: pointer;
+    transition: all 0.6s;
+}
+
+.page-three-read-more:hover{
+    color: black;
+    background: #48FFFE;
 }
 
 .page-three-right-bottom-scroll-bar{
