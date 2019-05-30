@@ -109,11 +109,11 @@ $(document).ready(function(){
     // 開頭淡入效果
     $('.page-one-left-top-bar').css('left', '0');
     $('.page-one-left-bottom-bar').css('left', '0');
-    $('.page-one-bottom-dot').css('left', '4%');
+    $('.page-one-bottom-dot').css('left', '1.5%');
     $('.page-one-right-top-bar').css('right', '0');
     $('.page-one-right-bottom-bar').css('right', '0');
     $('.page-one-scroll').css('right', '7%');
-    $('.page-one-menu-icon').css('right', '40px');
+    $('.page-one-menu-icon').css('right', '3.5%');
 
 
     // slide oneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
@@ -158,8 +158,140 @@ $(document).ready(function(){
     
     
 
-    
+    // slide 4 mouseover 換圖
+    $('.page-four-medical-space').mouseover(function () {
+      $('.page-four-img').css('background', 'url(../img/index-4-pic-1.png)');
+      $('.page-four-img').css('backgroundRepeat', 'no-repeat');
+      $('.page-four-img').css('backgroundSize', 'cover');
+      $('.page-four-img').css('backgroundPositionX', 'center');
+      $('.page-four-img').css('backgroundPositionY', 'center');
 
+    })
+
+    $('.page-four-residental').mouseover(function () {
+      $('.page-four-img').css('background', 'url(../img/index-4-pic-2.png)');
+      $('.page-four-img').css('backgroundRepeat', 'no-repeat');
+      $('.page-four-img').css('backgroundSize', 'cover');
+      $('.page-four-img').css('backgroundPositionX', 'center');
+      $('.page-four-img').css('backgroundPositionY', 'center');
+    })
+
+    $('.page-four-office').mouseover(function () {
+      $('.page-four-img').css('background', 'url(../img/index-4-pic-3.png)');
+      $('.page-four-img').css('backgroundRepeat', 'no-repeat');
+      $('.page-four-img').css('backgroundSize', 'cover');
+      $('.page-four-img').css('backgroundPositionX', 'center');
+      $('.page-four-img').css('backgroundPositionY', 'center');
+    })
+
+    $('.page-four-commercial').mouseover(function () {
+      $('.page-four-img').css('background', 'url(../img/index-4-pic-4.png)');
+      $('.page-four-img').css('backgroundRepeat', 'no-repeat');
+      $('.page-four-img').css('backgroundSize', 'cover');
+      $('.page-four-img').css('backgroundPositionX', 'center');
+      $('.page-four-img').css('backgroundPositionY', 'center');
+    })
+
+    $('.page-four-deco').mouseover(function () {
+      $('.page-four-img').css('background', 'url(../img/index-4-pic-5.png)');
+      $('.page-four-img').css('backgroundRepeat', 'no-repeat');
+      $('.page-four-img').css('backgroundSize', 'cover');
+      $('.page-four-img').css('backgroundPositionX', 'center');
+      $('.page-four-img').css('backgroundPositionY', 'center');
+    })
+
+
+    // menu fb ig mouseover
+
+
+    $('.page-one-fb').mouseover(function () {
+      $('.page-one-fb').attr('src', '../img/fb-blue.png')
+    })
+
+    $('.page-one-fb').mouseleave(function () {
+      $('.page-one-fb').attr('src', '../img/fb.png')
+    })
+
+
+    $('.page-one-ig').mouseover(function () {
+      $('.page-one-ig').attr('src', '../img/ig-blue.png')
+    })
+
+    $('.page-one-ig').mouseleave(function () {
+      $('.page-one-ig').attr('src', '../img/ig.png')
+    })
+
+    // 簡繁轉換 hover
+
+    $('.page-one-rectangle').mouseover(function () {
+      $('.page-one-rectangle').css('background', 'none');
+      $('.page-one-rectangle').text('繁');
+    })
+
+    $('.page-one-rectangle').mouseleave(function () {
+      $('.page-one-rectangle').css('background', 'url(../img/rectangle.png)');
+      $('.page-one-rectangle').css('backgroundRepeat', 'no-repeat');
+      $('.page-one-rectangle').css('backgroundSize', 'cover');
+      $('.page-one-rectangle').css('backgroundPositionX', 'center');
+      $('.page-one-rectangle').css('backgroundPositionY', 'center');
+      $('.page-one-rectangle').text('');
+    })
+  
+    $('.page-one-triangle').mouseover(function () {
+      $('.page-one-triangle').css('background', 'none');
+      $('.page-one-triangle').text('簡');
+    })
+
+    $('.page-one-triangle').mouseleave(function () {
+      $('.page-one-triangle').css('background', 'url(../img/triangle.png)');
+      $('.page-one-triangle').css('backgroundRepeat', 'no-repeat');
+      $('.page-one-triangle').css('backgroundSize', 'cover');
+      $('.page-one-triangle').css('backgroundPositionX', 'center');
+      $('.page-one-triangle').css('backgroundPositionY', 'center');
+      $('.page-one-triangle').text('');
+    })
+
+    // mouseover slide 4
+
+    $('.page-four-medical-space').mouseover(function () {
+      $('.page-four-medical-space').css('background', '#48FFFE');
+    })
+
+    $('.page-four-medical-space').mouseleave(function () {
+      $('.page-four-medical-space').css('background', 'none');
+    })
+
+    $('.page-four-residental').mouseover(function () {
+      $('.page-four-residental').css('background', '#48FFFE');
+    })
+
+    $('.page-four-residental').mouseleave(function () {
+      $('.page-four-residental').css('background', 'none');
+    })
+
+    $('.page-four-office').mouseover(function () {
+      $('.page-four-office').css('background', '#48FFFE');
+    })
+
+    $('.page-four-office').mouseleave(function () {
+      $('.page-four-office').css('background', 'none');
+    })
+
+    $('.page-four-commercial').mouseover(function () {
+      $('.page-four-commercial').css('background', '#48FFFE');
+    })
+
+    $('.page-four-commercial').mouseleave(function () {
+      $('.page-four-commercial').css('background', 'none');
+    })
+
+    $('.page-four-deco').mouseover(function () {
+      $('.page-four-deco').css('background', '#48FFFE');
+    })
+
+    $('.page-four-deco').mouseleave(function () {
+      $('.page-four-deco').css('background', 'none');
+    })
 
 
 
