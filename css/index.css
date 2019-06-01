@@ -50,7 +50,6 @@ h3{
 .page-one-logo{
     width: 70px !important;
     margin: auto;
-    padding-top: 15%;
 }
 
 .page-one-left-h1{
@@ -67,7 +66,8 @@ h3{
 
 .page-one-left-interior{
     letter-spacing: 5.8px; 
-    margin-bottom: 5px;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 .page-one-left-mi{
@@ -148,7 +148,7 @@ h3{
     background-position-y: center;
     line-height: 10px;
     height: 97vh;
-    transition: all 20s;
+    transition: all 15s;
     transform: translateX(-100px);
 }
 
@@ -302,7 +302,7 @@ h3{
     background-position-x: center;
     background-position-y: center;
     height: 97vh;
-    transition: all 20s;
+    transition: all 15s;
     transform: translateX(-100px);
 }
 
@@ -334,19 +334,19 @@ h3{
 
 .page-two-right-portfoilo{
     font-size:18px; 
-    margin:36px 0px 30px 0px; 
+    margin:5% 0px 4% 0px; 
     letter-spacing: 4.5px;
 }
 
 .page-two-right-mrs{
-    font-size:26px; 
+    font-size: 20px;
     margin:0px; 
     letter-spacing: 1px; 
     font-family: 'cardo';
 }
 
 .page-two-right-memorial{
-    font-size:36px; 
+    font-size:30px; 
     margin:0px; 
     letter-spacing: 1px; 
     font-family: 'cardo';
@@ -354,13 +354,13 @@ h3{
 
 .page-two-right-churchs{
     font-size:21px; 
-    margin:15px 0px 36px;  
+    margin:1% 0px 3%;  
     letter-spacing: 3px
 }
 
 .page-two-right-medical-space{
     font-size:15px; 
-    margin:10px 0px;  
+    margin:1% 0px;  
     letter-spacing: 3px
 }
 
@@ -497,7 +497,7 @@ h3{
     background-position-x: center;
     background-position-y: center;
     height: 97vh;
-    transition: all 30s;
+    transition: all 25s;
     transform: translateX(-100px);
 }
 
@@ -536,25 +536,25 @@ h3{
 
 .page-three-right-portfolio{
     font-size:18px; 
-    margin:36px 0px 10px 0px; 
+    margin:8% 0px 3% 0px; 
     letter-spacing: 4.5px;
 }
 
 .page-three-right-haydn{
-    font-size:36px; 
-    margin:10px 0px; 
+    font-size:28px; 
+    margin:1% 0px; 
     letter-spacing: 1px; 
     font-family: 'cardo';
 }
 
 .page-three-right-park{
-    font-size:21px; 
-    margin:0px 0px 32px; 
+    font-size:20px; 
+    margin:0px 0px 5%; 
     letter-spacing: 3px;
 }
 
 .page-three-right-residential{
-    font-size:15px; 
+    font-size:14px; 
     margin:10px 0px; 
     letter-spacing: 3px;
 }
@@ -562,8 +562,8 @@ h3{
 .page-three-read-more{
     background: black;
     color: white;
-    padding: 4px 14px;
-    margin-left: 10px;
+    padding: 3px 10px;
+    margin-left: 2%;
     cursor: pointer;
     transition: all 0.6s;
     letter-spacing: 3.2px;
@@ -695,30 +695,28 @@ h3{
 
 .page-four-right-product-bar{
     position: absolute;
-    right: 11%;
-    top: 0%;
+    right: 10%;
+    top: 14%;
     background-color: white;
-    width: 13%;
-    height: 80%;
-    margin-top: 5%;
+    /* width: 13%;
+    height: 80%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 25px;
     transition: all 0.2s 1s; 
 }
 
 .page-four-product-up-text{
     width: 190px;
-    font-size:22px; 
-    margin:36px 0px 12px 0px;
+    font-size:20px; 
+    margin:5% 0px 4% 0px;
     letter-spacing: 0.6px;
     font-family: 'cardo';
 }
 
 .page-four-product-down-text{
     width: 190px;
-    font-size:18px; 
+    font-size:16px; 
     margin:0px 0px 10px;
     letter-spacing: 4.5px;
 }
@@ -727,7 +725,7 @@ h3{
     width: 190px;
     height: 1px;
     background-color: black;
-    margin: 32px 0px 14px;
+    margin: 6% 0px 6%;
 }
 
 .page-four-href{
@@ -934,4 +932,8 @@ h3{
     100% {  transform: translateY(-10px) }
 }
 
+@media ( max-width: 1300px ){
+    .page-two-right-mrs{
 
+    }
+}

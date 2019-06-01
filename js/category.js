@@ -23,13 +23,4 @@ $(document).ready(function(){
 
 
 
-
-    $('.center-img-pic').mouseover(function(e){
-        e.target.style.opacity = 0;
-    })
-
-    $('.center-img-pic').mouseleave(function(e){
-        e.target.style.opacity = 1;
-    })
-
 })

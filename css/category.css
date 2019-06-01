@@ -1,3 +1,21 @@
+p{
+    font-family: 'Cardo', 'Noto Sans TC';
+    font-weight: 300;
+}
+
+div{
+    font-family: 'Lato', 'Noto Sans TC';
+    font-weight: 300;
+}
+
+h1{
+    font-family:  'Cardo', 'Noto Sans TC';
+}
+
+h3{
+    font-family:  'Cardo', 'Noto Sans TC';
+}
+
 /* left fix */
 
 .left-fix-bar{
@@ -20,139 +38,9 @@
     padding: 30px 0px 20px 0px;
 }
 
-
-/* menu */
-
-.right-menu-click-bar{
-    visibility: hidden;
-    z-index: 10;
-    opacity: 0.9;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    width: 10%;
-    height: 100%;
-    background-image: url('../img/menu-bar.png');
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    transition: all 0.6s ease 0s;
-}
-
-.right-close-div{
-    position: absolute;
-    right: 0;
-    top: 5%;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.right-close-icon{
-    font-size: 40px;
-}
-
-.right-close-text{
+.yayan{
+    writing-mode: vertical-rl;
     letter-spacing: 2px;
-}
-
-.right-menu-content{
-    position: absolute;
-    top: 30%;
-    right: 24%;
-}
-
-.right-menu-content{
-
-}
-
-.right-content{
-    font-weight: bold;
-    letter-spacing: 4px;
-}
-
-.right-menu-arrow{
-    width: 30px !important;
-    position: absolute;
-    left: -40px;
-}  
-
-.right-content:hover{
-    background-color: #48FFFE;
-    cursor: pointer;
-}
-
-.social{
-    display: flex;
-    position: absolute;
-    bottom: 24%;
-    right: 21%;
-    width: 200px;
-}
-
-.fb{
-    height: 18px !important;
-    width: 9px !important;
-    padding-right: 16px;
-    cursor: pointer;
-}
-
-.ig{
-    width: 18px !important;
-    height: 18px !important;
-    cursor: pointer;
-}
-
-.copyright{
-    position: absolute;
-    bottom: 2%;
-    right: 26%;
-}
-
-/* menu icon */
-
-.right-menu-icon{
-    z-index: 9;
-    position: fixed;
-    top: 6%;
-    right: 3%;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    transition: all 1s;
-}
-
-.right-menu-line-long{
-    width: 20px;
-    height: 1px;
-    background-color: black;
-    margin: 5px;
-    transition: all 0.6s;
-}
-
-.right-menu-line-long:hover{
-    width: 10px;
-}
-
-.right-menu-line-short{
-    width: 10px;
-    height: 1px;
-    background-color: black;
-    margin: 5px 5px 5px 15px;
-    transition: all 0.6s;
-}
-
-.right-menu-line-short:hover{
-    width: 20px;
-    margin: 5px;
-}
-
-.right-menu-text{
-    cursor: pointer;
 }
 
 /* center portfolio*/
@@ -167,6 +55,11 @@
     height: 5%;
     width: 200px;
     transition: all 0.2s 1s;
+}
+
+.protfolio-word{
+    font-family: 'lato';
+    letter-spacing: 4.5px;
 }
 
 .portfolio-line{
@@ -190,18 +83,18 @@
 
 .center-scroll-img{
     width: 25%;
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 .center-scroll-text-up{
     letter-spacing: 1px;
     font-size: 18px;
-    width: 160px;
     padding-left: 10px;
 }
 
 .center-scroll-text-down{
-    letter-spacing: 1px;
+    font-weight: 500;
+    letter-spacing: 4.5px;
     padding-left: 10px;
 }
 
@@ -229,51 +122,47 @@
 .center-img-bar{
     width: 75%;
     padding-left: 40px;
+}
+
+
+.center-img-two-row{
     display: flex;
-    flex-wrap: wrap;
 }
 
 .center-img-inside{
-    height: 230px;
-    padding: 5px;
-}
-
-.center-img-pic{
-    position: relative;
-    width: 270px;
-    height: 150px;
-    cursor: pointer;
-    background-color: black;
+    width: 45%;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 4px 4px 16px;
 }
 
-.center-imgs{
-    position: absolute;
-    width: 270px;
-    height: 150px;
-    background-image: url('../img/index-1-pic.png');
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
+.center-img-pic-all{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: transparent;
 }
 
 .center-img-pic-up-text{
-    color: white;
     margin: 0px;
     line-height: 32px;
+    letter-spacing: 0.8px;
+    font-size: 18px;
 }
 
 .center-img-pic-down-text{
-    color: white;
     margin: 0px;
+    font-size: 26px;
 }
 
 .center-img-text{
-    letter-spacing: 1px;
+    font-weight: 500;
+    letter-spacing: 2.3px;
 }
 
 
