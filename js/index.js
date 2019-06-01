@@ -280,5 +280,25 @@ $(document).ready(function(){
     })
 
 
+// read more 變色
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   });

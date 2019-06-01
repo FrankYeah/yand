@@ -359,25 +359,23 @@ h3{
 }
 
 .page-two-right-medical-space{
+    display: flex;
     font-size:15px; 
     margin:1% 0px;  
     letter-spacing: 3px
 }
 
 .page-two-read-more{
-    background: black;
+    position: relative;
+    width: 72px;
+    height: 16px;
+    background-color: black;
     color: white;
     padding: 4px 14px;
     margin-left: 10px;
     cursor: pointer;
-    transition: all 0.6s linear;
     letter-spacing: 3.25px;
     font-size: 13px;
-}
-
-.page-two-read-more:hover{
-    background: #48FFFE;
-    color: black;
 }
 
 .page-two-right-bottom-scroll-bar{
@@ -568,11 +566,6 @@ h3{
     transition: all 0.6s;
     letter-spacing: 3.2px;
     font-size: 13px;
-}
-
-.page-three-read-more:hover{
-    color: black;
-    background: #48FFFE;
 }
 
 .page-three-right-bottom-scroll-bar{
