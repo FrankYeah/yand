@@ -28,7 +28,8 @@ $(document).ready(function(){
       })
   
       $('.rectangle').mouseleave(function () {
-        $('.rectangle').css('background', 'url(../img/rectangle.png)');
+        // $('.rectangle').css('background', 'url(../img/rectangle.png)');
+        $('.rectangle').css('background', 'url(../yand/img/rectangle.png)');
         $('.rectangle').css('backgroundRepeat', 'no-repeat');
         $('.rectangle').css('backgroundSize', 'cover');
         $('.rectangle').css('backgroundPositionX', 'center');
@@ -42,7 +43,8 @@ $(document).ready(function(){
       })
   
       $('.triangle').mouseleave(function () {
-        $('.triangle').css('background', 'url(../img/triangle.png)');
+        // $('.triangle').css('background', 'url(../img/triangle.png)');
+        $('.triangle').css('background', 'url(../yand/img/triangle.png)');
         $('.triangle').css('backgroundRepeat', 'no-repeat');
         $('.triangle').css('backgroundSize', 'cover');
         $('.triangle').css('backgroundPositionX', 'center');

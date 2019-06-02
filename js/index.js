@@ -1,5 +1,17 @@
 $(document).ready(function(){
-    document.location.href="#slide1";
+console.log(window.location.hash)
+    if(window.location.hash == '#slide2'){
+      document.location.href="index.html#slide1";
+    }else if(window.location.hash == '#slide3'){
+      document.location.href="index.html#slide1";
+    }else if(window.location.hash == '#slide4'){
+      document.location.href="index.html#slide4";
+    }else if(window.location.hash == '#slide1'){
+      document.location.href="index.html#slide1";
+    }
+
+
+    // document.location.href="#slide1";
     $(".owl-carousel").owlCarousel({
         items: 1,
         loop: false,
@@ -106,7 +118,7 @@ $(document).ready(function(){
     $('.page-one-right-bottom-bar').css('right', '0');
     $('.page-one-scroll').css('right', '7%');
     $('.page-one-scroll-word').css('right', '7%');
-    $('.page-one-menu-icon').css('right', '2%');
+    $('.page-one-menu-icon').css('right', '2.5%');
 
 
     // slide oneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
@@ -114,7 +126,7 @@ $(document).ready(function(){
       $('.page-two-left-top-bar').css('left', '0');
       $('.page-two-left-bottom-bar').css('left', '0');
       $('.page-two-left-bottom-bar').css('opacity', '1');
-      $('.page-two-bottom-dot').css('left', '2%');
+      $('.page-two-bottom-dot').css('left', '1%');
       $('.page-two-bottom-dot').css('opacity', '1');
       $('.page-two-left-pagination').css('left', '6%');
       $('.page-two-left-pagination').css('opacity', '1');
@@ -138,7 +150,7 @@ $(document).ready(function(){
       $('.page-three-left-top-bar').css('left', '0');
       $('.page-three-left-bottom-bar').css('left', '0');
       $('.page-three-left-bottom-bar').css('opacity', '1');
-      $('.page-three-bottom-dot').css('left', '2%');
+      $('.page-three-bottom-dot').css('left', '1%');
       $('.page-three-bottom-dot').css('opacity', '1');
       $('.page-three-right-pagination').css('right', '19.5%');
       $('.page-three-right-pagination').css('opacity', '1');
@@ -167,7 +179,8 @@ $(document).ready(function(){
 
     // slide 4 mouseover 換圖
     $('.page-four-medical-space').mouseover(function () {
-      $('.page-four-img').css('background', 'url(../img/index-4-pic-1.png)');
+      // $('.page-four-img').css('background', 'url(../img/index-4-pic-1.png)');
+      $('.page-four-img').css('background', 'url(../img/yand/index-4-pic-1.png)');
       $('.page-four-img').css('backgroundRepeat', 'no-repeat');
       $('.page-four-img').css('backgroundSize', 'cover');
       $('.page-four-img').css('backgroundPositionX', 'center');
@@ -176,7 +189,8 @@ $(document).ready(function(){
     })
 
     $('.page-four-residental').mouseover(function () {
-      $('.page-four-img').css('background', 'url(../img/index-4-pic-2.png)');
+      // $('.page-four-img').css('background', 'url(../img/index-4-pic-2.png)');
+      $('.page-four-img').css('background', 'url(../yand/img/index-4-pic-2.png)');
       $('.page-four-img').css('backgroundRepeat', 'no-repeat');
       $('.page-four-img').css('backgroundSize', 'cover');
       $('.page-four-img').css('backgroundPositionX', 'center');
@@ -184,7 +198,8 @@ $(document).ready(function(){
     })
 
     $('.page-four-office').mouseover(function () {
-      $('.page-four-img').css('background', 'url(../img/index-4-pic-3.png)');
+      // $('.page-four-img').css('background', 'url(../img/index-4-pic-3.png)');
+      $('.page-four-img').css('background', 'url(../yand/img/index-4-pic-3.png)');
       $('.page-four-img').css('backgroundRepeat', 'no-repeat');
       $('.page-four-img').css('backgroundSize', 'cover');
       $('.page-four-img').css('backgroundPositionX', 'center');
@@ -192,7 +207,8 @@ $(document).ready(function(){
     })
 
     $('.page-four-commercial').mouseover(function () {
-      $('.page-four-img').css('background', 'url(../img/index-4-pic-4.png)');
+      // $('.page-four-img').css('background', 'url(../img/index-4-pic-4.png)');
+      $('.page-four-img').css('background', 'url(../yand/img/index-4-pic-4.png)');
       $('.page-four-img').css('backgroundRepeat', 'no-repeat');
       $('.page-four-img').css('backgroundSize', 'cover');
       $('.page-four-img').css('backgroundPositionX', 'center');
@@ -200,7 +216,8 @@ $(document).ready(function(){
     })
 
     $('.page-four-deco').mouseover(function () {
-      $('.page-four-img').css('background', 'url(../img/index-4-pic-5.png)');
+      // $('.page-four-img').css('background', 'url(../img/index-4-pic-5.png)');
+      $('.page-four-img').css('background', 'url(../yand/img/index-4-pic-5.png)');
       $('.page-four-img').css('backgroundRepeat', 'no-repeat');
       $('.page-four-img').css('backgroundSize', 'cover');
       $('.page-four-img').css('backgroundPositionX', 'center');
@@ -212,20 +229,24 @@ $(document).ready(function(){
 
 
     $('.page-one-fb').mouseover(function () {
-      $('.page-one-fb').attr('src', '../img/fb-blue.png')
+      // $('.page-one-fb').attr('src', '../img/fb-blue.png')
+      $('.page-one-fb').attr('src', '../yand/img/fb-blue.png')
     })
 
     $('.page-one-fb').mouseleave(function () {
-      $('.page-one-fb').attr('src', '../img/fb.png')
+      // $('.page-one-fb').attr('src', '../img/fb.png')
+      $('.page-one-fb').attr('src', '../yand/img/fb.png')
     })
 
 
     $('.page-one-ig').mouseover(function () {
-      $('.page-one-ig').attr('src', '../img/ig-blue.png')
+      // $('.page-one-ig').attr('src', '../img/ig-blue.png')
+      $('.page-one-ig').attr('src', '../yand/img/ig-blue.png')
     })
 
     $('.page-one-ig').mouseleave(function () {
-      $('.page-one-ig').attr('src', '../img/ig.png')
+      // $('.page-one-ig').attr('src', '../img/ig.png')
+      $('.page-one-ig').attr('src', '../yand/img/ig.png')
     })
 
     // 簡繁轉換 1 hover
@@ -236,7 +257,8 @@ $(document).ready(function(){
     })
 
     $('.page-one-rectangle').mouseleave(function () {
-      $('.page-one-rectangle').css('background', 'url(../img/rectangle.png)');
+      // $('.page-one-rectangle').css('background', 'url(../img/rectangle.png)');
+      $('.page-one-rectangle').css('background', 'url(../yand/img/rectangle.png)');
       $('.page-one-rectangle').css('backgroundRepeat', 'no-repeat');
       $('.page-one-rectangle').css('backgroundSize', 'cover');
       $('.page-one-rectangle').css('backgroundPositionX', 'center');
@@ -250,7 +272,8 @@ $(document).ready(function(){
     })
 
     $('.page-one-triangle').mouseleave(function () {
-      $('.page-one-triangle').css('background', 'url(../img/triangle.png)');
+      // $('.page-one-triangle').css('background', 'url(../img/triangle.png)');
+      $('.page-one-triangle').css('background', 'url(../yand/img/triangle.png)');
       $('.page-one-triangle').css('backgroundRepeat', 'no-repeat');
       $('.page-one-triangle').css('backgroundSize', 'cover');
       $('.page-one-triangle').css('backgroundPositionX', 'center');

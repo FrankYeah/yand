@@ -16,12 +16,17 @@ h3{
     font-family:  'Cardo', 'Noto Sans TC';
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /* left fix */
 
 .left-fix-bar{
     position: fixed;
     left: 0%;
-    top: 0%;
+    top: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,10 +50,10 @@ h3{
 
 .left-bottom-dot{
     position: absolute;
-    left: 28%;
+    left: 1%;
     bottom: 11%;
     height: 10%;
-    width: 44%;
+    width: 6%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -97,6 +102,7 @@ h3{
 }
 
 .portfolio-word{
+    font-size: 18px;
     font-family: 'lato';
     letter-spacing: 4.5px;
 }
@@ -113,13 +119,16 @@ h3{
     text-align: center;
     margin-bottom: 0px;
     letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 5px;
 }
 
 .subtitle{
     text-align: center;
     margin-top: 0px;
     letter-spacing: 1px;
-    font-size: 24px;
+    font-size: 30px;
+    margin-bottom: 5px;
 }
 
 .medical-name{
@@ -130,7 +139,7 @@ h3{
 
 .main-content{
     font-family: 'Lato', 'Noto Sans TC';
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 3px;
     text-align: center;
     margin: 6px 0px 60px;
@@ -178,7 +187,7 @@ h3{
 }
 
 .row-pic{
-    width: 100%;
+    width: 92.5%;
     padding-left: 8%;
 }
 
@@ -273,12 +282,16 @@ h3{
 }
 
 .foot-more{
+    width: 72px;
+    height: 16px;
     background-color: black;
     color: white;
+    padding: 3px 10px;
     margin-left: 10px;
-    padding: 2% 7%;
-    letter-spacing: 3.2px;
     cursor: pointer;
+    letter-spacing: 3.25px;
+    font-size: 13px;
+    text-align: center;
 }
 
 .foot-scroll{
@@ -298,4 +311,9 @@ h3{
 .foot-arrow-up{
     width: 20px;
     height: 45px;
+    transition: all 1s;
+}
+
+.foot-arrow-up:hover{
+    transform: translateY(-5px);
 }

@@ -16,6 +16,11 @@ h3{
     font-family:  'Cardo', 'Noto Sans TC';
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /* page-one */
 
 .page-one-body{
@@ -60,11 +65,12 @@ h3{
 .page-one-left-h3{
     letter-spacing: 8px; 
     margin-top: 6px; 
-    margin-bottom: 40px;
+    margin-bottom: 32px;
     padding-left: 10px;
 }
 
 .page-one-left-interior{
+    font-size: 14px;
     letter-spacing: 5.8px; 
     margin-bottom: 1%;
     margin-top: 1%;
@@ -76,7 +82,7 @@ h3{
 
 .page-one-logo-line{
     height: 1px;
-    width: 9%;
+    width: 24px;
     background-color: black;
     margin: auto;
     margin-bottom: 20px;
@@ -181,8 +187,8 @@ h3{
     position: absolute;
     right: -250px;
     bottom: 0;
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
     background-image: url('../img/scroll.png');
     background-repeat: no-repeat;
     background-position-x: center;
@@ -200,8 +206,8 @@ h3{
     position: absolute;
     right: -250px;
     bottom: 0;
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -211,6 +217,7 @@ h3{
 }
 
 .page-one-scroll-text{
+    font-size: 14px;
     letter-spacing: 3.5px;
 }
 
@@ -277,7 +284,7 @@ h3{
     opacity: 0;
     bottom: 3%;
     height: 10%;
-    width: 4%;
+    width: 6%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -292,7 +299,7 @@ h3{
     bottom: 30%;
     height: 30px;
     width: 30px;
-    transition: all 0.2s 1s;
+    transition: all 1s 1s;
     font-family: 'cardo';
 }
 
@@ -336,7 +343,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     padding-left: 35px;
-    transition: all 0.2s 1s; 
+    transition: all 1s 1s; 
     padding-bottom: 2%;
 }
 
@@ -344,7 +351,7 @@ h3{
     display: flex;
     align-items: center;
     font-size:18px; 
-    margin:5% 0px 4% 0px; 
+    margin:2% 0px 0% 0px; 
     letter-spacing: 4.5px;
 }
 
@@ -377,7 +384,7 @@ h3{
 
 .page-two-right-churchs{
     font-size:21px; 
-    margin:1% 0px 3%;  
+    margin:2% 0px 6%;  
     letter-spacing: 3px
 }
 
@@ -497,7 +504,7 @@ h3{
     opacity: 0;
     bottom: 3%;
     height: 10%;
-    width: 4%;
+    width: 6%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -512,7 +519,7 @@ h3{
     top: 20%;
     height: 30px;
     width: 30px;
-    transition: all 0.2s 1s;
+    transition: all 1s 1s;
     font-family: 'cardo';
 }
 
@@ -560,17 +567,17 @@ h3{
     left: -6%;
     bottom: -1%;
     background-color: white;
-    width: 20%;
+    width: 24%;
     height: 40%;
     padding-left: 25px;
-    transition: all 0.2s 1s; 
+    transition: all 1s 1s; 
 }
 
 .page-three-right-portfolio{
     display: flex;
     align-items: center;
     font-size:18px; 
-    margin:8% 0px 3% 0px; 
+    margin:8% 0px 0% 0px; 
     letter-spacing: 4.5px;
 }
 
@@ -589,14 +596,14 @@ h3{
 
 .page-three-right-haydn{
     font-size:28px; 
-    margin:1% 0px; 
+    margin:0% 0px; 
     letter-spacing: 1px; 
     font-family: 'cardo';
 }
 
 .page-three-right-park{
     font-size:20px; 
-    margin:0px 0px 5%; 
+    margin:2% 0px 6%; 
     letter-spacing: 3px;
 }
 
@@ -607,14 +614,17 @@ h3{
 }
 
 .page-three-read-more{
+    width: 72px;
+    height: 16px;
     background: black;
     color: white;
     padding: 3px 10px;
-    margin-left: 2%;
+    margin-left: 5%;
     cursor: pointer;
     transition: all 0.6s;
     letter-spacing: 3.2px;
     font-size: 13px;
+    text-align: center;
 }
 
 .page-three-right-bottom-scroll-bar{
@@ -694,10 +704,10 @@ h3{
 
 .page-four-bottom-dot{
     position: absolute;
-    left: 4%;
+    left: 1%;
     bottom: 3%;
     height: 10%;
-    width: 4%;
+    width: 6%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -736,11 +746,11 @@ h3{
 .page-four-portfolio-word{
     letter-spacing: 4.5px; 
     font-family:'lato'; 
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .page-four-portfolio-line{
-    width: 0px;
+    width: 100px;
     height: 1px;
     background-color: black;
     margin-left: 10px;
@@ -811,15 +821,17 @@ h3{
     background-position-y: center;
     width: 36px;
     height: 24px;
+    /* transition: all 0.6s linear; */
 }
 
 .page-menu-icon:hover{
-    background-image: url('../img/close-menu.png');
+    transform: scale(-1);
+    /* background-image: url('../img/close-menu.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
-    transition: all 0.6s linear;
+    background-position-y: center; */
+
 }
 
 .page-one-menu-text{

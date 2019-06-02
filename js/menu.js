@@ -72,18 +72,22 @@ $('.page-one-content-one').mouseover(function(){
 
 
 $('.page-one-fb').mouseover(function () {
-    $('.page-one-fb').attr('src', '../img/fb-blue.png')
+    // $('.page-one-fb').attr('src', '../img/fb-blue.png')
+    $('.page-one-fb').attr('src', '../yand/img/fb-blue.png')
     })
 
     $('.page-one-fb').mouseleave(function () {
-    $('.page-one-fb').attr('src', '../img/fb.png')
+    // $('.page-one-fb').attr('src', '../img/fb.png')
+    $('.page-one-fb').attr('src', '../yand/img/fb.png')
     })
 
 
     $('.page-one-ig').mouseover(function () {
-    $('.page-one-ig').attr('src', '../img/ig-blue.png')
+    // $('.page-one-ig').attr('src', '../img/ig-blue.png')
+    $('.page-one-ig').attr('src', '../yand/img/ig-blue.png')
     })
 
     $('.page-one-ig').mouseleave(function () {
-    $('.page-one-ig').attr('src', '../img/ig.png')
+    // $('.page-one-ig').attr('src', '../img/ig.png')
+    $('.page-one-ig').attr('src', '../yand/img/ig.png')
     })
