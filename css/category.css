@@ -45,7 +45,7 @@ h3{
 }
 
 .left-bottom-dot{
-    position: absolute;
+    position: fixed;
     left: 1.5%;
     bottom: 11%;
     height: 10%;
