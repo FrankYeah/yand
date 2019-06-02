@@ -39,6 +39,9 @@ $(document).ready(function(){
       $('#page_one_menu_click_bar').css('visibility','visible');
       $('#page_one_menu_click_bar').css('opacity','1');
       $('#page_one_menu_click_bar').css('width','48%');
+      $('#page_one_menu_click_bar').css('fontSize','16px');
+      $('.page-one-social').css('opacity','1');
+      $('.page_one_close_div').css('opacity','1');
       $('#page_one_menu_click_bar').css('transition','width 0.6s ease 0s');
     }
 
@@ -48,6 +51,9 @@ $(document).ready(function(){
       },600)
       $('#page_one_menu_click_bar').css('opacity','0.9');
       $('#page_one_menu_click_bar').css('width','10%');
+      $('#page_one_menu_click_bar').css('fontSize','0px');
+      $('.page-one-social').css('opacity','0');
+      $('.page_one_close_div').css('opacity','0');
       $('#page_one_menu_click_bar').css('transition','width 0.6s ease 0s');
     }
 
@@ -99,6 +105,7 @@ $(document).ready(function(){
     $('.page-one-right-top-bar').css('right', '0');
     $('.page-one-right-bottom-bar').css('right', '0');
     $('.page-one-scroll').css('right', '7%');
+    $('.page-one-scroll-word').css('right', '7%');
     $('.page-one-menu-icon').css('right', '2%');
 
 
@@ -116,7 +123,12 @@ $(document).ready(function(){
       $('.page-two-right-product-bar').css('opacity', '1');
       $('.page-two-right-bottom-scroll-bar').css('right', '8%');
       $('.page-two-right-bottom-scroll-bar').css('opacity', '1');
+      $('.page-two-right-bottom-scroll-bar-box').css('right', '8%');
+      $('.page-two-right-bottom-scroll-bar-box').css('opacity', '1');
       $('.page-two-img').css('transform', 'translateX(0px)');
+
+      $('.page-two-right-portfoilo-line').css('width', '100px');
+
     })
 
     
@@ -136,7 +148,10 @@ $(document).ready(function(){
       $('.page-three-right-product-bar').css('opacity', '1');
       $('.page-three-right-bottom-scroll-bar').css('right', '8%');
       $('.page-three-right-bottom-scroll-bar').css('opacity', '1');
+      $('.page-three-right-bottom-scroll-bar-box').css('right', '8%');
+      $('.page-three-right-bottom-scroll-bar-box').css('opacity', '1');
       $('.page-three-img').css('transform', 'translateX(0px)');
+
     })
 
     // 首圖動態
@@ -207,7 +222,7 @@ $(document).ready(function(){
       $('.page-one-ig').attr('src', '../img/ig.png')
     })
 
-    // 簡繁轉換 hover
+    // 簡繁轉換 1 hover
 
     $('.page-one-rectangle').mouseover(function () {
       $('.page-one-rectangle').css('background', 'none');
@@ -222,7 +237,7 @@ $(document).ready(function(){
       $('.page-one-rectangle').css('backgroundPositionY', 'center');
       $('.page-one-rectangle').text('');
     })
-  
+
     $('.page-one-triangle').mouseover(function () {
       $('.page-one-triangle').css('background', 'none');
       $('.page-one-triangle').text('簡');
@@ -285,9 +300,52 @@ $(document).ready(function(){
 
 
 
+// 開頭hover
+
+$('.page-one-scroll-word').mouseover(function () {
+  $('.page-one-scroll').css('transform', 'rotate(-15deg)');
+  $('.page-one-scroll-arrow').css('transform', 'translate(10px)');
+})
+
+$('.page-one-scroll-word').mouseleave(function () {
+  $('.page-one-scroll').css('transform', 'rotate(0deg)');
+  $('.page-one-scroll-arrow').css('transform', 'translate(0px)');
+
+})
+
+// 開頭hover 2
+
+$('.page-two-right-bottom-scroll-bar-box').mouseover(function () {
+  $('.page-two-right-bottom-scroll-bar').css('transform', 'rotate(-15deg)');
+  $('.page-two-scroll-arrow').css('transform', 'translate(15px)');
+})
+
+$('.page-two-right-bottom-scroll-bar-box').mouseleave(function () {
+  $('.page-two-right-bottom-scroll-bar').css('transform', 'rotate(0deg)');
+  $('.page-two-scroll-arrow').css('transform', 'translate(0px)');
+
+})
+
+// 開頭hover 3
+
+$('.page-three-right-bottom-scroll-bar-box').mouseover(function () {
+  $('.page-three-right-bottom-scroll-bar').css('transform', 'rotate(-15deg)');
+  $('.page-three-scroll-arrow').css('transform', 'translate(15px)');
+})
+
+$('.page-three-right-bottom-scroll-bar-box').mouseleave(function () {
+  $('.page-three-right-bottom-scroll-bar').css('transform', 'rotate(0deg)');
+  $('.page-three-scroll-arrow').css('transform', 'translate(0px)');
+
+})
 
 
 
+// portfolio 位置
+
+
+
+  
 
 
 

@@ -33,12 +33,13 @@ h3{
 }
 
 .logo{
-    height: 50px;
-    width: 50px !important;
+    height: 40px;
+    width: 40px !important;
     padding: 30px 0px 20px 0px;
 }
 
 .yayan{
+    font-size: 13px;
     letter-spacing: 2px;
 }
 
@@ -55,13 +56,31 @@ h3{
 }
 
 .rectangle{
-    width: 10px !important;
-    height: 10px;
+    width: 18px !important;
+    height: 18px;
+    background: url("../img/rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    font-size: 18px;
+    line-height: 16px;
+    cursor: pointer;
+    color: #979797;
 }
 
 .triangle{
-    width: 10px !important;
-    height: 10px;
+    width: 18px !important;
+    height: 18px;
+    background: url("../img/triangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    font-size: 18px;
+    line-height: 16px;
+    cursor: pointer;
+    color: #979797;
 }
 
 /* center portfolio*/
@@ -258,6 +277,7 @@ h3{
     margin-left: 10px;
     padding: 2% 7%;
     letter-spacing: 3.2px;
+    cursor: pointer;
 }
 
 .foot-scroll{
