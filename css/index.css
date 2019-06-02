@@ -580,10 +580,11 @@ h3{
 }
 
 .page-three-right-portfolio-line{
-    width: 90px;
+    width: 0px;
     height: 1px;
     background-color: black;
     margin-left: 10px;
+    transition: all 0.8s 0.8s linear; 
 }
 
 .page-three-right-haydn{
@@ -739,10 +740,11 @@ h3{
 }
 
 .page-four-portfolio-line{
-    width: 100px;
+    width: 0px;
     height: 1px;
     background-color: black;
     margin-left: 10px;
+    transition: all 0.6s linear;
 }
 
 .page-four-right-product-bar{

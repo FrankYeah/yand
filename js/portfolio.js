@@ -71,4 +71,10 @@ $(document).ready(function(){
       $('.triangle').text('');
     })
 
+
+      // portfolio 線
+      
+      $('.portfolio-line').css('width', '150px');
+
+
 })

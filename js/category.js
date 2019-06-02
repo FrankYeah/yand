@@ -51,4 +51,8 @@ $(document).ready(function(){
       })
 
 
+      // portfolio 線
+      
+      $('.portfolio-line').css('width', '150px');
+
 })

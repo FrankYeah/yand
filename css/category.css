@@ -88,7 +88,6 @@ h3{
 
 .portfolio-div{
     display: flex;
-    justify-content: center;
     align-items: center;
     position: absolute;
     left: 15%;
@@ -104,10 +103,11 @@ h3{
 }
 
 .portfolio-line{
-    width: 150px;
+    width: 0px;
     height: 1px;
     background-color: black;
     margin-left: 10px;
+    transition: all 0.6s 0.2s linear;
 }
 
 /* center scroll and img */

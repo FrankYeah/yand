@@ -151,7 +151,13 @@ $(document).ready(function(){
       $('.page-three-right-bottom-scroll-bar-box').css('right', '8%');
       $('.page-three-right-bottom-scroll-bar-box').css('opacity', '1');
       $('.page-three-img').css('transform', 'translateX(0px)');
+      $('.page-three-right-portfolio-line').css('width', '90px');
 
+    })
+
+    $('.next-three').click(function () {
+      $('.page-four-portfolio-line').css('width', '100px');
+      
     })
 
     // 首圖動態
