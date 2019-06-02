@@ -180,7 +180,7 @@ console.log(window.location.hash)
     // slide 4 mouseover 換圖
     $('.page-four-medical-space').mouseover(function () {
       // $('.page-four-img').css('background', 'url(../img/index-4-pic-1.png)');
-      $('.page-four-img').css('background', 'url(../img/yand/index-4-pic-1.png)');
+      $('.page-four-img').css('background', 'url(../yand/img/index-4-pic-1.png)');
       $('.page-four-img').css('backgroundRepeat', 'no-repeat');
       $('.page-four-img').css('backgroundSize', 'cover');
       $('.page-four-img').css('backgroundPositionX', 'center');
